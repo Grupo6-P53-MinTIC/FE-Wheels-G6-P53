@@ -159,13 +159,13 @@ export default {
   data: function () {
     return {
       dataTravel: {
-        id_manager: 0,
+        id_manager: null,
         from_place: "",
         to_place: "",
         pass_through: "",
         date_travel: "",
-        seats: 1,
-        price: 1000.0,
+        seats: null,
+        price: null,
       },
     };
   },
