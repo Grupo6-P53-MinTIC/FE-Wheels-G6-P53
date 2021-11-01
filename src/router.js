@@ -9,7 +9,7 @@ const routes = [
   {
     path: '/',
     name: 'edit',
-    component: createTravel
+    component: travels_home
   },
   {
     path: '/travels/edit',
