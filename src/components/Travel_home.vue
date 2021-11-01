@@ -78,6 +78,7 @@ export default {
           .get(url, config)
           .then((res) => {
             this.travels[i].id_manager = res.data.username;
+            console.log(res.data);
           })
           .catch((e) => console.log(e));
       }

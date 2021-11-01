@@ -7,8 +7,8 @@ import travels_home from './components/Travel_home.vue'
 
 const routes = [
   {
-    path: '/',
-    name: 'edit',
+    path: '/home',
+    name: 'home',
     component: travels_home
   },
   {

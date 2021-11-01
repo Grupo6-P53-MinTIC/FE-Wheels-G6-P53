@@ -193,11 +193,9 @@ export default {
         .post(url, body, config)
         .then((result) => {
             this.$emit("success", result);
-            console.log(result);
         })
         .catch((error) => {
           alert('Fail')
-          console.log(error);
         });
     },
   },
